@@ -6,9 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-public interface QaService {
+public interface AnswerService {
 
-    MultiValueMap<String, String> getQuestionsAndAnswers();
     int ask(MultiValueMap<String, String> questionsAndAnswers);
 
 }
