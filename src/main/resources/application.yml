@@ -1,0 +1,6 @@
+qa:
+  filename: qa.csv
+locale: en-EN
+spring:
+  banner:
+    location: classpath:banner.txt
