@@ -4,10 +4,7 @@ import org.springframework.stereotype.Service;
 import ru.otus.spring01.homework_1.services.UserInputService;
 
 import javax.annotation.PreDestroy;
-import java.io.FilterInputStream;
-import java.io.InputStream;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 @Service
 public class UserInputServiceImpl implements UserInputService {
